@@ -59,6 +59,6 @@ export class AuthService {
       );
     }
     // if password not match
-    return makeRes('error', 'Đăng nhập thất bại', true);
+    return makeRes('error', 'Mật khẩu không đúng', true);
   }
 }
